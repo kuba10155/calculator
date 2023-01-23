@@ -3,15 +3,18 @@
         <link rel="stylesheet" href="proby.css">
     </head>
     <body>
-        <span id="num1-el"></span>
-        <span id="num2-el"></span>
+        <h1>Calculator</h1>
+        <div class="inputs">
+          <input type="number" id="num1-el"></input>
+          <input type="number" id="num2-el"></input>
+        </div>
         <br>
-        <button onclick="add()">Add</button>
-        <button onclick="subtract()">Subtract</button>
-        <button onclick="divide()">Divide</button>
-        <button onclick="multiply()">Multiply</button>
+        <button id="add-btn">Add</button>
+        <button id="sub-btn">Subtract</button>
+        <button id="div-btn">Divide</button>
+        <button id="mul-btn">Multiply</button>
         <br>
-        <span id="sum-el">Sum: </span>
+        <span id="sum-el">Answer: </span>
         <script src="proby.js"></script>
     </body>
 </html>
